@@ -1,0 +1,833 @@
+body {
+    /*font-family: 'PT Serif', serif;*/
+    font-family: 'Acme';
+}
+
+/*start navbar*/
+
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar .logo {
+    color: #f0ad4e
+}
+
+.navbar .navbar-brand {
+    font-family: 'Kaushan Script';
+    font-size: 28px;
+    margin-top: 15px
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #f0ad4e;
+}
+
+.form-inline .btn {
+    color: #f0ad4e;
+    border: 1px solid #f0ad4e
+}
+
+.form-inline .btn:hover {
+    background-color: #f0ad4e;
+    color: #fff
+}
+
+/*end navbar*/
+
+/*start header*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG-20180330-WA0000.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden
+}
+
+header .header-content h1 {
+    text-transform: capitalize;
+    font-family: 'Kaushan Script';
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 30%
+}
+
+header .header-content h1:after {
+    content: ' ';
+    display: block;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.header-content {
+    overflow: hidden
+}
+
+.header-content .right,
+.header-content .icon-6,
+.header-content .icon-7,
+.header-content .icon-8 {
+    text-align: right
+}
+
+.header-content .icon-1 {
+    position: absolute;
+    top: 70%;
+    color: #f0ad4e;
+    left: 10px;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px;
+}
+
+.header-content .icon-1 i {
+    transform: rotate(-45deg)
+}
+.header-content .icon-1 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-80px;
+    left:0
+}
+.header-content .icon-1 .span-head{
+    opacity: 0
+}
+.header-content .icon-1:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+.header-content .icon-2 {
+    position: absolute;
+    top: 85%;
+    color: #f0ad4e;
+    left: 10px;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-2 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-50px;
+    left:0
+}
+.header-content .icon-2 .span-head{
+    opacity: 0
+}
+.header-content .icon-2:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+
+
+.header-content .icon-3 {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    color: #f0ad4e;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-3 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-80px;
+    left:0
+}
+.header-content .icon-3 .span-head{
+    opacity: 0
+}
+.header-content .icon-3:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+
+.header-content .icon-4 {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    color: #f0ad4e;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-4 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-80px;
+    left:0
+}
+.header-content .icon-4 .span-head{
+    opacity: 0
+}
+.header-content .icon-4:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+
+
+.header-content .icon-5 {
+    position: absolute;
+    top: 70%;
+    color: #f0ad4e;
+    right: 10px;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-5 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-80px;
+    left:0
+}
+.header-content .icon-5 .span-head{
+    opacity: 0
+}
+.header-content .icon-5:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+.header-content .icon-6 {
+    position: absolute;
+    top: 85%;
+    color: #f0ad4e;
+    right: 10px;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-6 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-50px;
+    left:0
+}
+.header-content .icon-6 .span-head{
+    opacity: 0
+}
+.header-content .icon-6:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+
+.header-content .icon-7 {
+    position: absolute;
+    top: 85%;
+    right: 8%;
+    color: #f0ad4e;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-7 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-80px;
+    left:0
+}
+.header-content .icon-7 .span-head{
+    opacity: 0
+}
+.header-content .icon-7:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+
+.header-content .icon-8 {
+    position: absolute;
+    top: 85%;
+    right: 15%;
+    color: #f0ad4e;
+    opacity: .7;
+    background-color: #2d4055;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 88px
+}
+.header-content .icon-8 .span-head{
+    color:black;
+    background-color: #ccc;
+    text-transform: capitalize;
+    font-size:12px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top:-80px;
+    left:0
+}
+.header-content .icon-8 .span-head{
+    opacity: 0
+}
+.header-content .icon-8:hover .span-head{
+    opacity:1;
+    position: absolute;
+    top:0px;
+    transition: .5s all ease-in-out
+}
+/*end header*/
+
+/*start deals*/
+
+.Deals {
+    padding: 50px 0;
+    text-align: center
+}
+
+.Deals h2 {
+    text-align: center;
+    text-transform: uppercase
+}
+
+.Deals .row {
+    margin-top: 50px
+}
+
+.Deals .card {
+    background-color: #2c3e50
+}
+
+.Deals .card img {
+    height: 130px
+}
+
+.Deals .card h5,
+.Deals .card h3 {
+    color: #fff;
+    text-transform: capitalize
+}
+
+.Deals .card .details {
+    color: #f0ad4e;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-transform: capitalize
+}
+
+.Deals .card hr {
+    width: 150px;
+    border: 1px dashed #fff;
+    margin: 2px auto;
+}
+
+.Deals .card .content {
+    color: #fff;
+    text-align: justify;
+    margin-top: 15px
+}
+
+.Deals .card .btn {
+    color: #2c3e50;
+    background-color: #f0ad4e;
+    width: 120px;
+    text-transform: capitalize
+}
+
+.Deals .card .btn:hover {
+    color: #2c3e50;
+    background-color: #f0ad4e;
+    width: 120px;
+    text-transform: capitalize;
+    border: 1px solid #2c3e50
+}
+
+/*end deals*/
+/*start modal*/
+
+.modal p{
+    color:gray
+}
+.modal-body h3{
+    color:dimgray
+}
+.modal-body img{
+    width:50px;
+    height:40px;
+    
+}
+.modal-body form i{
+    position: absolute;
+    right: 32px;
+    top: 82px;
+    background-color: darkgray;
+    padding: 10px;
+}
+.modal-body form label{
+    color: gray;
+    display: block
+}
+.modal-body form  input[type='date']{
+    width:200px;
+}
+.modal-body form .date-code .form-control {
+    display: inline-block
+}
+.modal-body form .code{
+    width:100px
+}
+/*end modal*/
+/*start things to do*/
+#things{
+    overflow: hidden
+}
+#things .row-1 .col-md-3,#things .row-2 .col-md-3{
+    padding:0;
+}
+#things h2{
+    text-align: center;
+    text-transform: uppercase
+}
+#things p{
+    color:#7f8c8d;
+    text-align: center;
+    margin-bottom: 30px
+}
+#things .img-1{
+    background-image: url(../images/things-to-do/wild.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+    
+  
+    
+}
+#things .img1-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img1-content{
+   opacity: 0
+}
+#things .img-1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/wild.jpg);
+   
+
+}
+#things .img-1:hover .img1-content{
+  opacity:1 ;
+ transition: all .5s ease-in-out
+   
+}
+
+#things .img-2{
+    background-image: url(../images/things-to-do/boating.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+ 
+    
+}
+#things .img2-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img2-content{
+    opacity: 0
+}
+#things .img-2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/boating.jpg)
+}
+#things .img-2:hover .img2-content{
+     opacity:1 ;
+ transition: all .5s ease-in-out
+}
+#things .img-3{
+    background-image: url(../images/things-to-do/gokyo-lake.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+
+    
+}
+#things .img3-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img3-content{
+  opacity: 0
+}
+#things .img-3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/gokyo-lake.jpg)
+}
+#things .img-3:hover .img3-content{
+  opacity:1 ;
+ transition: all .5s ease-in-out
+}
+#things .img-4{
+    background-image: url(../images/things-to-do/paragliding.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+
+    
+}
+#things .img4-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img4-content{
+    opacity: 0
+}
+#things .img-4:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/paragliding.jpg)
+}
+#things .img-4:hover .img4-content{
+     opacity:1 ;
+ transition: all .5s ease-in-out   
+}
+
+#things .img-5{
+    background-image: url(../images/things-to-do/gumba.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+
+    
+}
+#things .img5-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img5-content{
+   opacity: 0
+}
+#things .img-5:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/gumba.jpg)
+}
+#things .img-5:hover .img5-content{
+    opacity:1 ;
+ transition: all .5s ease-in-out 
+}
+
+#things .img-6{
+    background-image: url(../images/things-to-do/dashain.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+
+    
+}
+#things .img6-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img6-content{
+    opacity: 0
+}
+#things .img-6:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/dashain.jpg)
+}
+#things .img-6:hover .img6-content{
+     opacity:1 ;
+ transition: all .5s ease-in-out   
+}
+
+#things .img-7{
+    background-image: url(../images/things-to-do/city.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px;
+
+    
+}
+#things .img7-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+     
+}
+
+#things .img7-content{
+    opacity: 0
+}
+#things .img-7:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/city.jpg)
+}
+#things .img-7:hover .img7-content{
+ opacity:1 ;
+ transition: all .5s ease-in-out   
+}
+
+#things .img-8{
+    background-image: url(../images/things-to-do/rice-padding.jpg);
+    background-size: cover;
+    width:100%;
+   height: 300px; 
+}
+#things .img8-content span{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 2px solid #fff;
+}
+
+#things .img8-content{
+    opacity: 0
+}
+#things .img-8:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/things-to-do/rice-padding.jpg);
+    
+}
+#things .img-8:hover .img8-content{
+ opacity:1 ;
+ transition: all .5s ease-in-out
+    
+}
+/*end things to do*/
+
+/*start what on*/
+.what-on {
+    position: relative
+}
+.what-on  p{
+    color:#7f8c8d;
+    text-align: center;
+    margin-bottom: 30px
+}
+.what-on img{
+    width:100%;
+    height: 180px
+}
+.what-on .date{
+    color:#fff;
+    background-color:#d05b58 ;
+    padding: 10px;
+    width:100px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    right: 15px;
+    font-size: 18px;
+    opacity: .9;
+    transition: .5s all ease-in-out
+}
+.what-on .date:hover{
+    color:#fff;
+    background-color:#d05b58 ;
+    padding: 10px;
+    width: calc(100% - 30px);
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1
+}
+.what-on .row-2 span{
+    display: flex;
+    justify-content: center;
+    margin-top:10px
+}
+.what-on .row-2 p{
+    text-align: justify
+}
+/*end what on*/
+/*start destination*/
+
+.destination{
+    position: relative
+}
+.destination .img{
+    overflow: hidden
+}
+.destination img{
+    width:100%;
+    height:250px;
+    transition: .5s all ease-in-out
+}
+.destination img:hover{
+    transform: scale(1.2)
+}
+.destination .details{
+    color:#fff;
+    background-color:rgba(0,0,0,.7) ;
+    padding: 10px;
+    width:calc(100% - 30px);
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    position: absolute;
+    bottom:0;
+    font-size: 18px;
+}
+/*end destination*/
+
+/*start form*/
+.form{
+    position: relative
+}
+.form input{
+    width: 400px;
+    margin: 20px auto
+}
+.form .btn{
+    position: absolute;
+    top: 59%;
+    right: 35%;
+    border-radius: 0 5px 5px 0
+}
+.form .btn:hover{
+    background-color:#0275d8
+}
+/*end form*/
+
+/*start footer*/
+.footer{
+    background-color: #ecf0f1
+}
+.footer img{
+    width:90px;
+    height: 40px;
+    margin-right:20px;
+}
+.footer .text{
+    margin-top:15px
+}
+/*end footer*/
